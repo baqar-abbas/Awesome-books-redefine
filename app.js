@@ -12,7 +12,8 @@ for (let i = 0; i < books.length; i += 1) {
   removeButton.textContent = 'Remove';
   removeButton.addEventListener('click', () => {
     // Renmove the corresponding data
-    books.splice(i, 1);
+    const index = books.indexOf(books[i]);
+    books.splice(index, 1);
     localStorage.setItem('books', JSON.stringify(books));
     // Remove the corresponding list item from the HTML list
     list.removeChild(listItem);
