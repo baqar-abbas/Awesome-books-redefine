@@ -22,10 +22,26 @@ for (let i = 0; i < books.length; i += 1) {
   listItem.appendChild(hr);
 }
 
+/*eslint-disable*/
+function isInputValid() {
+    const title = document.querySelector('#title');
+    const author = document.querySelector('#author');
+    if (title.value === '' || author.value === '') {
+        return false;
+    }
+    return true; 
+}
+
 form.addEventListener('submit', (e) => {
   e.preventDefault();
   const title = document.querySelector('#title');
   const author = document.querySelector('#author');
+
+  // Validate form inputs
+  if (!isInputValid()) {
+    alert('Please fill in both Title and Author fields.');
+    return;
+  }
 
   const formData = {
     id: j,
