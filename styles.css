@@ -53,8 +53,6 @@ header {
 
 main {
   margin-top: 15vh;
-
-  /* padding: 0 20px 0 20px; */
 }
 
 .list-section {
@@ -106,10 +104,7 @@ main {
 }
 
 .add-books {
-  /* margin: 30% auto; */
   width: 60%;
-
-  /* margin: 100px auto; */
   margin-top: 15%;
   margin-left: 40%;
 }
@@ -157,8 +152,6 @@ h2 {
   height: 10vh;
   position: fixed;
   bottom: 0;
-
-  /* box-shadow: 5px -5px 10px black; */
   display: flex;
   justify-content: center;
   color: white;
@@ -174,13 +167,11 @@ h2 {
 .contact-section {
   display: none;
   flex-direction: column;
-
-  /* margin: 15vh auto; */
   width: 90%;
   justify-content: center;
   align-items: center;
 }
 
 .contactinformation {
-    margin-top: 10%;
+  margin-top: 10%;
 }
