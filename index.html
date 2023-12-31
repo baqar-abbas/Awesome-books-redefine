@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Awesome Books</title>
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+        <span class="logo">Awesome Books</span>
+        <ul class="nav-links">
+            <li><a class="list" href="javascript:void(0)">List</a></li>
+            <li><a class="add-new" href="#">Add New</a></li>
+            <li><a class="contact" href="#">Contact</a></li>
+        </ul>
+        </nav>
+    </header>
+    <small id="datetime"></small>
+    <main>
+        <!-- List and display Book Section -->
+        <section class="list-section">
+        <h1>All Awesome Books</h1>
+        <div class="dynamic">
+            <ul id="list">
+            </ul>
+            </div>
+        </section>
+            <!-- Add a Book Section -->
+            <div class="add-books">
+                <h2>Add a new book</h2>
+                <form action="" id="form1">
+                    <input type="text" name="title" id="title" placeholder="Title" required><br>
+                    <input type="text" name="author" id="author" placeholder="Author" required><br><br>
+                    <input type="submit" value="Add" id="submit">
+                </form>
+            </div>
+            <!-- Contact Section -->
+            <section class="contact-section">
+                <h2 class="contactinformation">
+                    Contact Information
+                </h2>
+                <p>Do you have any questions or you just want to say "Hello"? <br>
+                    You can reach out to us! 
+                    <ul>
+                        <li class="cli">My email baqar007@hotmail.com </li>
+                        <li class="cli">My phone number 00435865344422</li>
+                        <li class="cli">My adress Streethome 22, 84503 Karachi, Pakistan</li>
+                    </ul>
+                </p>
+            </section>
+    </main>
+    <footer class="footer">
+        <small>&copy;Copyright Awesome Books by Baqar Abbas</small>
+      </footer>
+    <script src="classRefactor.js"></script>
+</body>
+</html>
