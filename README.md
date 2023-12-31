@@ -59,7 +59,7 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- [Live Demo Link](Will be available soon)
+- [Live Demo Link](https://baqar-abbas.github.io/Awesome-books-redefine/)
 
 <!-- GETTING STARTED -->
 
